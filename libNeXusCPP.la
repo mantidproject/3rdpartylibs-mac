@@ -17,7 +17,7 @@ old_library='libNeXusCPP.a'
 inherited_linker_flags=' '
 
 # Libraries that this one depends upon.
-dependency_libs=' -L../../src/.libs -L/Users/scu/checkout/nexus/third-party/trunk/buildroot//lib /usr/local/lib/libNeXus.la -lmxml -lhdf5 -lsz -ljpeg -lz -lpthread -ldl -lm -lSystemStubs'
+dependency_libs=' -L../../src/.libs -L/Users/scu/checkout/nexus/third-party/trunk/buildroot//lib/ -L/Users/scu/checkout/nexus/third-party/trunk/buildroot//lib /Users/scu/local/lib/libNeXus.la -lmxml -lhdf5 -lmfhdf -ldf -lsz -ljpeg -lz -lpthread -ldl -lm -lSystemStubs'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
