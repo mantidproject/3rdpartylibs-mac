@@ -6,7 +6,7 @@ do
   install_name_tool -id $f $f
 done
 
-POCOLIBS='libPoco*11.dylib'
+POCOLIBS='libPoco*16.dylib'
 for l in $POCOLIBS
 do
   for m in $POCOLIBS
